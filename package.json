@@ -5,6 +5,7 @@
   "main": "dist/reactnative/index.js",
   "types": "dist/reactnative/index.d.ts",
   "scripts": {
+    "postinstall": "npm run build",
     "build": "sh scripts/build.sh",
     "clean": "sh scripts/clean.sh",
     "release": "sh scripts/publish-latest.sh",
